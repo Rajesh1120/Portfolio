@@ -7,7 +7,9 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import expensetracker from "../../Assets/Projects/expensetracker.png"
+// import bitsOfCode from "../../Assets/Projects/blog.png";
+import tictactoe from "../../Assets/Projects/tictactoe.png";
 
 function Projects() {
   return (
@@ -23,22 +25,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={expensetracker}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="Expense-Tracker"
+              description="Records spending, categorizes expenses, sets budgets, tracks income, and provides insights to aid financial management and decision-making."
+              ghLink="https://github.com/Rajesh1120/Expense_tracker"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={tictactoe}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Tic-Tac-Toe"
+              description="My personal blog page build with React.js and Css which takes the content from makdown files and renders it using React.js. Supports multiplayers and good User Interface."
+              ghLink="https://github.com/Rajesh1120/tic-tac-toe"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
