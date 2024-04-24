@@ -4,8 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+// import editor from "../../Assets/Projects/codeEditor.png";
+import moviepic from "../../Assets/Projects/movies.png"
+// import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import expensetracker from "../../Assets/Projects/expensetracker.png"
 // import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -30,7 +31,6 @@ function Projects() {
               title="Expense-Tracker"
               description="Records spending, categorizes expenses, sets budgets, tracks income, and provides insights to aid financial management and decision-making."
               ghLink="https://github.com/Rajesh1120/Expense_tracker"
-              demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -41,18 +41,16 @@ function Projects() {
               title="Tic-Tac-Toe"
               description="My personal blog page build with React.js and Css which takes the content from makdown files and renders it using React.js. Supports multiplayers and good User Interface."
               ghLink="https://github.com/Rajesh1120/tic-tac-toe"
-              demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={moviepic}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Movies"
+              description="Database of movies, TV shows, and celebrities.Its API provides access to a vast amount of movie data including details such as movie titles, descriptions, release dates, ratings. "
+              ghLink="https://github.com/Rajesh1120/Reactjs_moviesdb"
             />
           </Col>
 
@@ -63,7 +61,6 @@ function Projects() {
               title="Plant AI"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
