@@ -2,14 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
+import dailytasks from "../../Assets/Projects/dailytasks.jpg";
 import moviepic from "../../Assets/Projects/movies.png"
-// import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import expensetracker from "../../Assets/Projects/expensetracker.png"
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+
 import tictactoe from "../../Assets/Projects/tictactoe.png";
 
 function Projects() {
@@ -54,15 +50,15 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={dailytasks}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Daily Tasks"
+              description="By using React Native , I implemented a simple mobile app which contains CRUD operations . It is user friendly flexible and fast"
+              ghLink="https://github.com/Rajesh1120/todoList_ReactNative"
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
